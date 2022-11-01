@@ -124,6 +124,4190 @@
       },
       "tags": [],
       "implicitDependencies": []
+    },
+    "magento/module-sales-inventory": {
+      "root": "magento2/app/code/Magento/SalesInventory/",
+      "sourceRoot": "magento2/app/code/Magento/SalesInventory/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SalesInventory/ vendor/magento/module-sales-inventory --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-webapi": {
+      "root": "magento2/app/code/Magento/Webapi/",
+      "sourceRoot": "magento2/app/code/Magento/Webapi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Webapi/ vendor/magento/module-webapi --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cron": {
+      "root": "magento2/app/code/Magento/Cron/",
+      "sourceRoot": "magento2/app/code/Magento/Cron/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Cron/ vendor/magento/module-cron --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-review-graph-ql": {
+      "root": "magento2/app/code/Magento/ReviewGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/ReviewGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ReviewGraphQl/ vendor/magento/module-review-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-catalog-integration": {
+      "root": "magento2/app/code/Magento/MediaGalleryCatalogIntegration/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryCatalogIntegration/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryCatalogIntegration/ vendor/magento/module-media-gallery-catalog-integration --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-catalog": {
+      "root": "magento2/app/code/Magento/MediaContentCatalog/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentCatalog/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentCatalog/ vendor/magento/module-media-content-catalog --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-captcha": {
+      "root": "magento2/app/code/Magento/Captcha/",
+      "sourceRoot": "magento2/app/code/Magento/Captcha/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Captcha/ vendor/magento/module-captcha --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-product-video": {
+      "root": "magento2/app/code/Magento/ProductVideo/",
+      "sourceRoot": "magento2/app/code/Magento/ProductVideo/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ProductVideo/ vendor/magento/module-product-video --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-customer": {
+      "root": "magento2/app/code/Magento/Customer/",
+      "sourceRoot": "magento2/app/code/Magento/Customer/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Customer/ vendor/magento/module-customer --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-configurable-product": {
+      "root": "magento2/app/code/Magento/ConfigurableProduct/",
+      "sourceRoot": "magento2/app/code/Magento/ConfigurableProduct/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ConfigurableProduct/ vendor/magento/module-configurable-product --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sales-graph-ql": {
+      "root": "magento2/app/code/Magento/SalesGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/SalesGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SalesGraphQl/ vendor/magento/module-sales-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-inventory": {
+      "root": "magento2/app/code/Magento/CatalogInventory/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogInventory/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogInventory/ vendor/magento/module-catalog-inventory --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-rule": {
+      "root": "magento2/app/code/Magento/CatalogRule/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogRule/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogRule/ vendor/magento/module-catalog-rule --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog": {
+      "root": "magento2/app/code/Magento/Catalog/",
+      "sourceRoot": "magento2/app/code/Magento/Catalog/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Catalog/ vendor/magento/module-catalog --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-quote-graph-ql": {
+      "root": "magento2/app/code/Magento/QuoteGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/QuoteGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/QuoteGraphQl/ vendor/magento/module-quote-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-newsletter-graph-ql": {
+      "root": "magento2/app/code/Magento/NewsletterGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/NewsletterGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/NewsletterGraphQl/ vendor/magento/module-newsletter-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-asynchronous-operations": {
+      "root": "magento2/app/code/Magento/AsynchronousOperations/",
+      "sourceRoot": "magento2/app/code/Magento/AsynchronousOperations/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AsynchronousOperations/ vendor/magento/module-asynchronous-operations --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-advanced-pricing-import-export": {
+      "root": "magento2/app/code/Magento/AdvancedPricingImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/AdvancedPricingImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AdvancedPricingImportExport/ vendor/magento/module-advanced-pricing-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-new-relic-reporting": {
+      "root": "magento2/app/code/Magento/NewRelicReporting/",
+      "sourceRoot": "magento2/app/code/Magento/NewRelicReporting/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/NewRelicReporting/ vendor/magento/module-new-relic-reporting --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-tax-graph-ql": {
+      "root": "magento2/app/code/Magento/TaxGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/TaxGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/TaxGraphQl/ vendor/magento/module-tax-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-integration": {
+      "root": "magento2/app/code/Magento/Integration/",
+      "sourceRoot": "magento2/app/code/Magento/Integration/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Integration/ vendor/magento/module-integration --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-store-graph-ql": {
+      "root": "magento2/app/code/Magento/StoreGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/StoreGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/StoreGraphQl/ vendor/magento/module-store-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-msrp-grouped-product": {
+      "root": "magento2/app/code/Magento/MsrpGroupedProduct/",
+      "sourceRoot": "magento2/app/code/Magento/MsrpGroupedProduct/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MsrpGroupedProduct/ vendor/magento/module-msrp-grouped-product --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-multishipping": {
+      "root": "magento2/app/code/Magento/Multishipping/",
+      "sourceRoot": "magento2/app/code/Magento/Multishipping/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Multishipping/ vendor/magento/module-multishipping --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-msrp": {
+      "root": "magento2/app/code/Magento/Msrp/",
+      "sourceRoot": "magento2/app/code/Magento/Msrp/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Msrp/ vendor/magento/module-msrp --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-url-rewrite": {
+      "root": "magento2/app/code/Magento/CatalogUrlRewrite/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogUrlRewrite/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogUrlRewrite/ vendor/magento/module-catalog-url-rewrite --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-bundle-graph-ql": {
+      "root": "magento2/app/code/Magento/BundleGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/BundleGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/BundleGraphQl/ vendor/magento/module-bundle-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-synchronization-api": {
+      "root": "magento2/app/code/Magento/MediaGallerySynchronizationApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGallerySynchronizationApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGallerySynchronizationApi/ vendor/magento/module-media-gallery-synchronization-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cache-invalidate": {
+      "root": "magento2/app/code/Magento/CacheInvalidate/",
+      "sourceRoot": "magento2/app/code/Magento/CacheInvalidate/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CacheInvalidate/ vendor/magento/module-cache-invalidate --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-rss": {
+      "root": "magento2/app/code/Magento/Rss/",
+      "sourceRoot": "magento2/app/code/Magento/Rss/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Rss/ vendor/magento/module-rss --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-version": {
+      "root": "magento2/app/code/Magento/Version/",
+      "sourceRoot": "magento2/app/code/Magento/Version/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Version/ vendor/magento/module-version --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-url-rewrite": {
+      "root": "magento2/app/code/Magento/UrlRewrite/",
+      "sourceRoot": "magento2/app/code/Magento/UrlRewrite/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/UrlRewrite/ vendor/magento/module-url-rewrite --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-swatches-layered-navigation": {
+      "root": "magento2/app/code/Magento/SwatchesLayeredNavigation/",
+      "sourceRoot": "magento2/app/code/Magento/SwatchesLayeredNavigation/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SwatchesLayeredNavigation/ vendor/magento/module-swatches-layered-navigation --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-webapi-security": {
+      "root": "magento2/app/code/Magento/WebapiSecurity/",
+      "sourceRoot": "magento2/app/code/Magento/WebapiSecurity/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/WebapiSecurity/ vendor/magento/module-webapi-security --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-quote-configurable-options": {
+      "root": "magento2/app/code/Magento/QuoteConfigurableOptions/",
+      "sourceRoot": "magento2/app/code/Magento/QuoteConfigurableOptions/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/QuoteConfigurableOptions/ vendor/magento/module-quote-configurable-options --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-synchronization-metadata": {
+      "root": "magento2/app/code/Magento/MediaGallerySynchronizationMetadata/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGallerySynchronizationMetadata/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGallerySynchronizationMetadata/ vendor/magento/module-media-gallery-synchronization-metadata --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-quote": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerQuote/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerQuote/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerQuote/ vendor/magento/module-login-as-customer-quote --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-usps": {
+      "root": "magento2/app/code/Magento/Usps/",
+      "sourceRoot": "magento2/app/code/Magento/Usps/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Usps/ vendor/magento/module-usps --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-elasticsearch-7": {
+      "root": "magento2/app/code/Magento/Elasticsearch7/",
+      "sourceRoot": "magento2/app/code/Magento/Elasticsearch7/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Elasticsearch7/ vendor/magento/module-elasticsearch-7 --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-renditions-api": {
+      "root": "magento2/app/code/Magento/MediaGalleryRenditionsApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryRenditionsApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryRenditionsApi/ vendor/magento/module-media-gallery-renditions-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-checkout-agreements": {
+      "root": "magento2/app/code/Magento/CheckoutAgreements/",
+      "sourceRoot": "magento2/app/code/Magento/CheckoutAgreements/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CheckoutAgreements/ vendor/magento/module-checkout-agreements --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-cms-ui": {
+      "root": "magento2/app/code/Magento/MediaGalleryCmsUi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryCmsUi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryCmsUi/ vendor/magento/module-media-gallery-cms-ui --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-advanced-search": {
+      "root": "magento2/app/code/Magento/AdvancedSearch/",
+      "sourceRoot": "magento2/app/code/Magento/AdvancedSearch/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AdvancedSearch/ vendor/magento/module-advanced-search --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-analytics": {
+      "root": "magento2/app/code/Magento/Analytics/",
+      "sourceRoot": "magento2/app/code/Magento/Analytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Analytics/ vendor/magento/module-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-email": {
+      "root": "magento2/app/code/Magento/Email/",
+      "sourceRoot": "magento2/app/code/Magento/Email/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Email/ vendor/magento/module-email --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cardinal-commerce": {
+      "root": "magento2/app/code/Magento/CardinalCommerce/",
+      "sourceRoot": "magento2/app/code/Magento/CardinalCommerce/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CardinalCommerce/ vendor/magento/module-cardinal-commerce --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-url-rewrite-graph-ql": {
+      "root": "magento2/app/code/Magento/UrlRewriteGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/UrlRewriteGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/UrlRewriteGraphQl/ vendor/magento/module-url-rewrite-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-inventory-graph-ql": {
+      "root": "magento2/app/code/Magento/CatalogInventoryGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogInventoryGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogInventoryGraphQl/ vendor/magento/module-catalog-inventory-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-graph-ql": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerGraphQl/ vendor/magento/module-login-as-customer-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sales": {
+      "root": "magento2/app/code/Magento/Sales/",
+      "sourceRoot": "magento2/app/code/Magento/Sales/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Sales/ vendor/magento/module-sales --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-deploy": {
+      "root": "magento2/app/code/Magento/Deploy/",
+      "sourceRoot": "magento2/app/code/Magento/Deploy/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Deploy/ vendor/magento/module-deploy --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-theme-graph-ql": {
+      "root": "magento2/app/code/Magento/ThemeGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/ThemeGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ThemeGraphQl/ vendor/magento/module-theme-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-backup": {
+      "root": "magento2/app/code/Magento/Backup/",
+      "sourceRoot": "magento2/app/code/Magento/Backup/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Backup/ vendor/magento/module-backup --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-vault": {
+      "root": "magento2/app/code/Magento/Vault/",
+      "sourceRoot": "magento2/app/code/Magento/Vault/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Vault/ vendor/magento/module-vault --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-grouped-product-graph-ql": {
+      "root": "magento2/app/code/Magento/GroupedProductGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/GroupedProductGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GroupedProductGraphQl/ vendor/magento/module-grouped-product-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-graph-ql": {
+      "root": "magento2/app/code/Magento/CatalogGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogGraphQl/ vendor/magento/module-catalog-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-eav-graph-ql": {
+      "root": "magento2/app/code/Magento/EavGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/EavGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/EavGraphQl/ vendor/magento/module-eav-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cookie": {
+      "root": "magento2/app/code/Magento/Cookie/",
+      "sourceRoot": "magento2/app/code/Magento/Cookie/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Cookie/ vendor/magento/module-cookie --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-synchronization-catalog": {
+      "root": "magento2/app/code/Magento/MediaContentSynchronizationCatalog/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentSynchronizationCatalog/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentSynchronizationCatalog/ vendor/magento/module-media-content-synchronization-catalog --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-rule": {
+      "root": "magento2/app/code/Magento/Rule/",
+      "sourceRoot": "magento2/app/code/Magento/Rule/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Rule/ vendor/magento/module-rule --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sales-rule": {
+      "root": "magento2/app/code/Magento/SalesRule/",
+      "sourceRoot": "magento2/app/code/Magento/SalesRule/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SalesRule/ vendor/magento/module-sales-rule --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-compare-list-graph-ql": {
+      "root": "magento2/app/code/Magento/CompareListGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CompareListGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CompareListGraphQl/ vendor/magento/module-compare-list-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sales-analytics": {
+      "root": "magento2/app/code/Magento/SalesAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/SalesAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SalesAnalytics/ vendor/magento/module-sales-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-graph-ql-cache": {
+      "root": "magento2/app/code/Magento/GraphQlCache/",
+      "sourceRoot": "magento2/app/code/Magento/GraphQlCache/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GraphQlCache/ vendor/magento/module-graph-ql-cache --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-ups": {
+      "root": "magento2/app/code/Magento/Ups/",
+      "sourceRoot": "magento2/app/code/Magento/Ups/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Ups/ vendor/magento/module-ups --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-ui-api": {
+      "root": "magento2/app/code/Magento/MediaGalleryUiApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryUiApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryUiApi/ vendor/magento/module-media-gallery-ui-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-directory-graph-ql": {
+      "root": "magento2/app/code/Magento/DirectoryGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/DirectoryGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/DirectoryGraphQl/ vendor/magento/module-directory-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sample-data": {
+      "root": "magento2/app/code/Magento/SampleData/",
+      "sourceRoot": "magento2/app/code/Magento/SampleData/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SampleData/ vendor/magento/module-sample-data --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-widget": {
+      "root": "magento2/app/code/Magento/CatalogWidget/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogWidget/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogWidget/ vendor/magento/module-catalog-widget --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-wishlist-analytics": {
+      "root": "magento2/app/code/Magento/WishlistAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/WishlistAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/WishlistAnalytics/ vendor/magento/module-wishlist-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-sales": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerSales/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerSales/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerSales/ vendor/magento/module-login-as-customer-sales --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-require-js": {
+      "root": "magento2/app/code/Magento/RequireJs/",
+      "sourceRoot": "magento2/app/code/Magento/RequireJs/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/RequireJs/ vendor/magento/module-require-js --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-developer": {
+      "root": "magento2/app/code/Magento/Developer/",
+      "sourceRoot": "magento2/app/code/Magento/Developer/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Developer/ vendor/magento/module-developer --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-backend": {
+      "root": "magento2/app/code/Magento/Backend/",
+      "sourceRoot": "magento2/app/code/Magento/Backend/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Backend/ vendor/magento/module-backend --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-mysql-mq": {
+      "root": "magento2/app/code/Magento/MysqlMq/",
+      "sourceRoot": "magento2/app/code/Magento/MysqlMq/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MysqlMq/ vendor/magento/module-mysql-mq --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-admin-analytics": {
+      "root": "magento2/app/code/Magento/AdminAnalytics",
+      "sourceRoot": "magento2/app/code/Magento/AdminAnalytics",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AdminAnalytics/ vendor/magento/module-admin-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-fedex": {
+      "root": "magento2/app/code/Magento/Fedex/",
+      "sourceRoot": "magento2/app/code/Magento/Fedex/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Fedex/ vendor/magento/module-fedex --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-shipping": {
+      "root": "magento2/app/code/Magento/Shipping/",
+      "sourceRoot": "magento2/app/code/Magento/Shipping/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Shipping/ vendor/magento/module-shipping --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-swagger-webapi": {
+      "root": "magento2/app/code/Magento/SwaggerWebapi/",
+      "sourceRoot": "magento2/app/code/Magento/SwaggerWebapi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SwaggerWebapi/ vendor/magento/module-swagger-webapi --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-customer-analytics": {
+      "root": "magento2/app/code/Magento/CustomerAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/CustomerAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CustomerAnalytics/ vendor/magento/module-customer-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-rule-graph-ql": {
+      "root": "magento2/app/code/Magento/CatalogRuleGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogRuleGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogRuleGraphQl/ vendor/magento/module-catalog-rule-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-wishlist": {
+      "root": "magento2/app/code/Magento/Wishlist/",
+      "sourceRoot": "magento2/app/code/Magento/Wishlist/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Wishlist/ vendor/magento/module-wishlist --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-quote-analytics": {
+      "root": "magento2/app/code/Magento/QuoteAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/QuoteAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/QuoteAnalytics/ vendor/magento/module-quote-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-customer-graph-ql": {
+      "root": "magento2/app/code/Magento/CustomerGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CustomerGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CustomerGraphQl/ vendor/magento/module-customer-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-frontend-ui": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerFrontendUi/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerFrontendUi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerFrontendUi/ vendor/magento/module-login-as-customer-frontend-ui --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-paypal-graph-ql": {
+      "root": "magento2/app/code/Magento/PaypalGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/PaypalGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/PaypalGraphQl/ vendor/magento/module-paypal-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-tax": {
+      "root": "magento2/app/code/Magento/Tax/",
+      "sourceRoot": "magento2/app/code/Magento/Tax/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Tax/ vendor/magento/module-tax --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-translation": {
+      "root": "magento2/app/code/Magento/Translation/",
+      "sourceRoot": "magento2/app/code/Magento/Translation/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Translation/ vendor/magento/module-translation --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-newsletter": {
+      "root": "magento2/app/code/Magento/Newsletter/",
+      "sourceRoot": "magento2/app/code/Magento/Newsletter/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Newsletter/ vendor/magento/module-newsletter --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-log": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerLog/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerLog/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerLog/ vendor/magento/module-login-as-customer-log --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-tax-import-export": {
+      "root": "magento2/app/code/Magento/TaxImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/TaxImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/TaxImportExport/ vendor/magento/module-tax-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-url-rewrite-graph-ql": {
+      "root": "magento2/app/code/Magento/CatalogUrlRewriteGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogUrlRewriteGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogUrlRewriteGraphQl/ vendor/magento/module-catalog-url-rewrite-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-paypal": {
+      "root": "magento2/app/code/Magento/Paypal/",
+      "sourceRoot": "magento2/app/code/Magento/Paypal/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Paypal/ vendor/magento/module-paypal --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cms-url-rewrite": {
+      "root": "magento2/app/code/Magento/CmsUrlRewrite/",
+      "sourceRoot": "magento2/app/code/Magento/CmsUrlRewrite/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CmsUrlRewrite/ vendor/magento/module-cms-url-rewrite --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-page-cache": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerPageCache/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerPageCache/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerPageCache/ vendor/magento/module-login-as-customer-page-cache --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sitemap": {
+      "root": "magento2/app/code/Magento/Sitemap/",
+      "sourceRoot": "magento2/app/code/Magento/Sitemap/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Sitemap/ vendor/magento/module-sitemap --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-csp": {
+      "root": "magento2/app/code/Magento/Csp/",
+      "sourceRoot": "magento2/app/code/Magento/Csp/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Csp/ vendor/magento/module-csp --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-swatches": {
+      "root": "magento2/app/code/Magento/Swatches/",
+      "sourceRoot": "magento2/app/code/Magento/Swatches/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Swatches/ vendor/magento/module-swatches --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-reports": {
+      "root": "magento2/app/code/Magento/Reports/",
+      "sourceRoot": "magento2/app/code/Magento/Reports/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Reports/ vendor/magento/module-reports --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-google-adwords": {
+      "root": "magento2/app/code/Magento/GoogleAdwords/",
+      "sourceRoot": "magento2/app/code/Magento/GoogleAdwords/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GoogleAdwords/ vendor/magento/module-google-adwords --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-grouped-catalog-inventory": {
+      "root": "magento2/app/code/Magento/GroupedCatalogInventory/",
+      "sourceRoot": "magento2/app/code/Magento/GroupedCatalogInventory/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GroupedCatalogInventory/ vendor/magento/module-grouped-catalog-inventory --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-catalog": {
+      "root": "magento2/app/code/Magento/MediaGalleryCatalog/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryCatalog/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryCatalog/ vendor/magento/module-media-gallery-catalog --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-aws-s3": {
+      "root": "magento2/app/code/Magento/AwsS3/",
+      "sourceRoot": "magento2/app/code/Magento/AwsS3/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AwsS3/ vendor/magento/module-aws-s3 --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-cms": {
+      "root": "magento2/app/code/Magento/MediaContentCms/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentCms/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentCms/ vendor/magento/module-media-content-cms --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cms": {
+      "root": "magento2/app/code/Magento/Cms/",
+      "sourceRoot": "magento2/app/code/Magento/Cms/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Cms/ vendor/magento/module-cms --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-synchronization-cms": {
+      "root": "magento2/app/code/Magento/MediaContentSynchronizationCms/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentSynchronizationCms/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentSynchronizationCms/ vendor/magento/module-media-content-synchronization-cms --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-configurable-product-sales": {
+      "root": "magento2/app/code/Magento/ConfigurableProductSales/",
+      "sourceRoot": "magento2/app/code/Magento/ConfigurableProductSales/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ConfigurableProductSales/ vendor/magento/module-configurable-product-sales --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-import-export": {
+      "root": "magento2/app/code/Magento/CatalogImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogImportExport/ vendor/magento/module-catalog-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-offline-shipping": {
+      "root": "magento2/app/code/Magento/OfflineShipping/",
+      "sourceRoot": "magento2/app/code/Magento/OfflineShipping/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/OfflineShipping/ vendor/magento/module-offline-shipping --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-encryption-key": {
+      "root": "magento2/app/code/Magento/EncryptionKey/",
+      "sourceRoot": "magento2/app/code/Magento/EncryptionKey/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/EncryptionKey/ vendor/magento/module-encryption-key --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-quote-bundle-options": {
+      "root": "magento2/app/code/Magento/QuoteBundleOptions/",
+      "sourceRoot": "magento2/app/code/Magento/QuoteBundleOptions/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/QuoteBundleOptions/ vendor/magento/module-quote-bundle-options --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-amqp-store": {
+      "root": "magento2/app/code/Magento/AmqpStore/",
+      "sourceRoot": "magento2/app/code/Magento/AmqpStore/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AmqpStore/ vendor/magento/module-amqp-store --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-configurable-import-export": {
+      "root": "magento2/app/code/Magento/ConfigurableImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/ConfigurableImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ConfigurableImportExport/ vendor/magento/module-configurable-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-currency-symbol": {
+      "root": "magento2/app/code/Magento/CurrencySymbol/",
+      "sourceRoot": "magento2/app/code/Magento/CurrencySymbol/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CurrencySymbol/ vendor/magento/module-currency-symbol --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-ui": {
+      "root": "magento2/app/code/Magento/Ui/",
+      "sourceRoot": "magento2/app/code/Magento/Ui/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Ui/ vendor/magento/module-ui --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-analytics": {
+      "root": "magento2/app/code/Magento/CatalogAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogAnalytics/ vendor/magento/module-catalog-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-downloadable": {
+      "root": "magento2/app/code/Magento/Downloadable/",
+      "sourceRoot": "magento2/app/code/Magento/Downloadable/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Downloadable/ vendor/magento/module-downloadable --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-storage": {
+      "root": "magento2/app/code/Magento/MediaStorage/",
+      "sourceRoot": "magento2/app/code/Magento/MediaStorage/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaStorage/ vendor/magento/module-media-storage --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-product-alert": {
+      "root": "magento2/app/code/Magento/ProductAlert/",
+      "sourceRoot": "magento2/app/code/Magento/ProductAlert/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ProductAlert/ vendor/magento/module-product-alert --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-wishlist-graph-ql": {
+      "root": "magento2/app/code/Magento/WishlistGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/WishlistGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/WishlistGraphQl/ vendor/magento/module-wishlist-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-layered-navigation": {
+      "root": "magento2/app/code/Magento/LayeredNavigation/",
+      "sourceRoot": "magento2/app/code/Magento/LayeredNavigation/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LayeredNavigation/ vendor/magento/module-layered-navigation --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-api": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerApi/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerApi/ vendor/magento/module-login-as-customer-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-integration": {
+      "root": "magento2/app/code/Magento/MediaGalleryIntegration/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryIntegration/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryIntegration/ vendor/magento/module-media-gallery-integration --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-customer-graph-ql": {
+      "root": "magento2/app/code/Magento/CatalogCustomerGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogCustomerGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogCustomerGraphQl/ vendor/magento/module-catalog-customer-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-graph-ql": {
+      "root": "magento2/app/code/Magento/GraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/GraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GraphQl/ vendor/magento/module-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-search": {
+      "root": "magento2/app/code/Magento/Search/",
+      "sourceRoot": "magento2/app/code/Magento/Search/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Search/ vendor/magento/module-search --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-downloadable-import-export": {
+      "root": "magento2/app/code/Magento/DownloadableImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/DownloadableImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/DownloadableImportExport/ vendor/magento/module-downloadable-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-configurable-product-graph-ql": {
+      "root": "magento2/app/code/Magento/ConfigurableProductGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/ConfigurableProductGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ConfigurableProductGraphQl/ vendor/magento/module-configurable-product-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-eav": {
+      "root": "magento2/app/code/Magento/Eav/",
+      "sourceRoot": "magento2/app/code/Magento/Eav/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Eav/ vendor/magento/module-eav --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-assistance": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerAssistance/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerAssistance/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerAssistance/ vendor/magento/module-login-as-customer-assistance --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-authorization": {
+      "root": "magento2/app/code/Magento/Authorization/",
+      "sourceRoot": "magento2/app/code/Magento/Authorization/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Authorization/ vendor/magento/module-authorization --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-theme": {
+      "root": "magento2/app/code/Magento/Theme/",
+      "sourceRoot": "magento2/app/code/Magento/Theme/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Theme/ vendor/magento/module-theme --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-payment-graph-ql": {
+      "root": "magento2/app/code/Magento/PaymentGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/PaymentGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/PaymentGraphQl/ vendor/magento/module-payment-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-import-export": {
+      "root": "magento2/app/code/Magento/ImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/ImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ImportExport/ vendor/magento/module-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-bundle": {
+      "root": "magento2/app/code/Magento/Bundle/",
+      "sourceRoot": "magento2/app/code/Magento/Bundle/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Bundle/ vendor/magento/module-bundle --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-checkout-agreements-graph-ql": {
+      "root": "magento2/app/code/Magento/CheckoutAgreementsGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CheckoutAgreementsGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CheckoutAgreementsGraphQl/ vendor/magento/module-checkout-agreements-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-grouped-import-export": {
+      "root": "magento2/app/code/Magento/GroupedImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/GroupedImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GroupedImportExport/ vendor/magento/module-grouped-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-vault-graph-ql": {
+      "root": "magento2/app/code/Magento/VaultGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/VaultGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/VaultGraphQl/ vendor/magento/module-vault-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-metadata": {
+      "root": "magento2/app/code/Magento/MediaGalleryMetadata/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryMetadata/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryMetadata/ vendor/magento/module-media-gallery-metadata --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-api": {
+      "root": "magento2/app/code/Magento/MediaContentApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentApi/ vendor/magento/module-media-content-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-ui": {
+      "root": "magento2/app/code/Magento/MediaGalleryUi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryUi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryUi/ vendor/magento/module-media-gallery-ui --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-directory": {
+      "root": "magento2/app/code/Magento/Directory/",
+      "sourceRoot": "magento2/app/code/Magento/Directory/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Directory/ vendor/magento/module-directory --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-metadata-api": {
+      "root": "magento2/app/code/Magento/MediaGalleryMetadataApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryMetadataApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryMetadataApi/ vendor/magento/module-media-gallery-metadata-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-rule-configurable": {
+      "root": "magento2/app/code/Magento/CatalogRuleConfigurable/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogRuleConfigurable/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogRuleConfigurable/ vendor/magento/module-catalog-rule-configurable --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-release-notification": {
+      "root": "magento2/app/code/Magento/ReleaseNotification/",
+      "sourceRoot": "magento2/app/code/Magento/ReleaseNotification/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ReleaseNotification/ vendor/magento/module-release-notification --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-persistent": {
+      "root": "magento2/app/code/Magento/Persistent/",
+      "sourceRoot": "magento2/app/code/Magento/Persistent/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Persistent/ vendor/magento/module-persistent --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-instant-purchase": {
+      "root": "magento2/app/code/Magento/InstantPurchase/",
+      "sourceRoot": "magento2/app/code/Magento/InstantPurchase/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/InstantPurchase/ vendor/magento/module-instant-purchase --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-gift-message-graph-ql": {
+      "root": "magento2/app/code/Magento/GiftMessageGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/GiftMessageGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GiftMessageGraphQl/ vendor/magento/module-gift-message-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-quote": {
+      "root": "magento2/app/code/Magento/Quote/",
+      "sourceRoot": "magento2/app/code/Magento/Quote/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Quote/ vendor/magento/module-quote --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-jwt-framework-adapter": {
+      "root": "magento2/app/code/Magento/JwtFrameworkAdapter/",
+      "sourceRoot": "magento2/app/code/Magento/JwtFrameworkAdapter/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/JwtFrameworkAdapter/ vendor/magento/module-jwt-framework-adapter --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-quote-downloadable-links": {
+      "root": "magento2/app/code/Magento/QuoteDownloadableLinks/",
+      "sourceRoot": "magento2/app/code/Magento/QuoteDownloadableLinks/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/QuoteDownloadableLinks/ vendor/magento/module-quote-downloadable-links --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-payment": {
+      "root": "magento2/app/code/Magento/Payment/",
+      "sourceRoot": "magento2/app/code/Magento/Payment/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Payment/ vendor/magento/module-payment --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-api": {
+      "root": "magento2/app/code/Magento/MediaGalleryApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryApi/ vendor/magento/module-media-gallery-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cms-graph-ql": {
+      "root": "magento2/app/code/Magento/CmsGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CmsGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CmsGraphQl/ vendor/magento/module-cms-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-google-optimizer": {
+      "root": "magento2/app/code/Magento/GoogleOptimizer/",
+      "sourceRoot": "magento2/app/code/Magento/GoogleOptimizer/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GoogleOptimizer/ vendor/magento/module-google-optimizer --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-indexer": {
+      "root": "magento2/app/code/Magento/Indexer/",
+      "sourceRoot": "magento2/app/code/Magento/Indexer/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Indexer/ vendor/magento/module-indexer --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-search": {
+      "root": "magento2/app/code/Magento/CatalogSearch/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogSearch/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogSearch/ vendor/magento/module-catalog-search --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-contact": {
+      "root": "magento2/app/code/Magento/Contact/",
+      "sourceRoot": "magento2/app/code/Magento/Contact/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Contact/ vendor/magento/module-contact --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-elasticsearch": {
+      "root": "magento2/app/code/Magento/Elasticsearch/",
+      "sourceRoot": "magento2/app/code/Magento/Elasticsearch/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Elasticsearch/ vendor/magento/module-elasticsearch --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-admin-notification": {
+      "root": "magento2/app/code/Magento/AdminNotification/",
+      "sourceRoot": "magento2/app/code/Magento/AdminNotification/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/AdminNotification/ vendor/magento/module-admin-notification --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery": {
+      "root": "magento2/app/code/Magento/MediaGallery/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGallery/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGallery/ vendor/magento/module-media-gallery --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-remote-storage": {
+      "root": "magento2/app/code/Magento/RemoteStorage/",
+      "sourceRoot": "magento2/app/code/Magento/RemoteStorage/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/RemoteStorage/ vendor/magento/module-remote-storage --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-checkout": {
+      "root": "magento2/app/code/Magento/Checkout/",
+      "sourceRoot": "magento2/app/code/Magento/Checkout/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Checkout/ vendor/magento/module-checkout --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-renditions": {
+      "root": "magento2/app/code/Magento/MediaGalleryRenditions/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryRenditions/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryRenditions/ vendor/magento/module-media-gallery-renditions --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-downloadable-graph-ql": {
+      "root": "magento2/app/code/Magento/DownloadableGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/DownloadableGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/DownloadableGraphQl/ vendor/magento/module-downloadable-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-weee": {
+      "root": "magento2/app/code/Magento/Weee/",
+      "sourceRoot": "magento2/app/code/Magento/Weee/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Weee/ vendor/magento/module-weee --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-variable": {
+      "root": "magento2/app/code/Magento/Variable/",
+      "sourceRoot": "magento2/app/code/Magento/Variable/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Variable/ vendor/magento/module-variable --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-widget": {
+      "root": "magento2/app/code/Magento/Widget/",
+      "sourceRoot": "magento2/app/code/Magento/Widget/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Widget/ vendor/magento/module-widget --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-gift-message": {
+      "root": "magento2/app/code/Magento/GiftMessage/",
+      "sourceRoot": "magento2/app/code/Magento/GiftMessage/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GiftMessage/ vendor/magento/module-gift-message --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-jwt-user-token": {
+      "root": "magento2/app/code/Magento/JwtUserToken/",
+      "sourceRoot": "magento2/app/code/Magento/JwtUserToken/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/JwtUserToken/ vendor/magento/module-jwt-user-token --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-catalog-ui": {
+      "root": "magento2/app/code/Magento/MediaGalleryCatalogUi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGalleryCatalogUi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGalleryCatalogUi/ vendor/magento/module-media-gallery-catalog-ui --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-marketplace": {
+      "root": "magento2/app/code/Magento/Marketplace/",
+      "sourceRoot": "magento2/app/code/Magento/Marketplace/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Marketplace/ vendor/magento/module-marketplace --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-store": {
+      "root": "magento2/app/code/Magento/Store/",
+      "sourceRoot": "magento2/app/code/Magento/Store/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Store/ vendor/magento/module-store --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-msrp-configurable-product": {
+      "root": "magento2/app/code/Magento/MsrpConfigurableProduct/",
+      "sourceRoot": "magento2/app/code/Magento/MsrpConfigurableProduct/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MsrpConfigurableProduct/ vendor/magento/module-msrp-configurable-product --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-weee-graph-ql": {
+      "root": "magento2/app/code/Magento/WeeeGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/WeeeGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/WeeeGraphQl/ vendor/magento/module-weee-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-customer-downloadable-graph-ql": {
+      "root": "magento2/app/code/Magento/CustomerDownloadableGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CustomerDownloadableGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CustomerDownloadableGraphQl/ vendor/magento/module-customer-downloadable-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-elasticsearch-6": {
+      "root": "magento2/app/code/Magento/Elasticsearch6/",
+      "sourceRoot": "magento2/app/code/Magento/Elasticsearch6/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Elasticsearch6/ vendor/magento/module-elasticsearch-6 --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-message-queue": {
+      "root": "magento2/app/code/Magento/MessageQueue/",
+      "sourceRoot": "magento2/app/code/Magento/MessageQueue/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MessageQueue/ vendor/magento/module-message-queue --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-offline-payments": {
+      "root": "magento2/app/code/Magento/OfflinePayments/",
+      "sourceRoot": "magento2/app/code/Magento/OfflinePayments/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/OfflinePayments/ vendor/magento/module-offline-payments --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-synchronization-api": {
+      "root": "magento2/app/code/Magento/MediaContentSynchronizationApi/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentSynchronizationApi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentSynchronizationApi/ vendor/magento/module-media-content-synchronization-api --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-send-friend": {
+      "root": "magento2/app/code/Magento/SendFriend/",
+      "sourceRoot": "magento2/app/code/Magento/SendFriend/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SendFriend/ vendor/magento/module-send-friend --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-amqp": {
+      "root": "magento2/app/code/Magento/Amqp/",
+      "sourceRoot": "magento2/app/code/Magento/Amqp/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Amqp/ vendor/magento/module-amqp --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-review-analytics": {
+      "root": "magento2/app/code/Magento/ReviewAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/ReviewAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/ReviewAnalytics/ vendor/magento/module-review-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-page-cache": {
+      "root": "magento2/app/code/Magento/PageCache/",
+      "sourceRoot": "magento2/app/code/Magento/PageCache/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/PageCache/ vendor/magento/module-page-cache --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-swatches-graph-ql": {
+      "root": "magento2/app/code/Magento/SwatchesGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/SwatchesGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SwatchesGraphQl/ vendor/magento/module-swatches-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-customer-import-export": {
+      "root": "magento2/app/code/Magento/CustomerImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/CustomerImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CustomerImportExport/ vendor/magento/module-customer-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-catalog-cms-graph-ql": {
+      "root": "magento2/app/code/Magento/CatalogCmsGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CatalogCmsGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CatalogCmsGraphQl/ vendor/magento/module-catalog-cms-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-paypal-captcha": {
+      "root": "magento2/app/code/Magento/PaypalCaptcha/",
+      "sourceRoot": "magento2/app/code/Magento/PaypalCaptcha/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/PaypalCaptcha/ vendor/magento/module-paypal-captcha --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-config": {
+      "root": "magento2/app/code/Magento/Config/",
+      "sourceRoot": "magento2/app/code/Magento/Config/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Config/ vendor/magento/module-config --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-review": {
+      "root": "magento2/app/code/Magento/Review/",
+      "sourceRoot": "magento2/app/code/Magento/Review/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Review/ vendor/magento/module-review --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-related-product-graph-ql": {
+      "root": "magento2/app/code/Magento/RelatedProductGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/RelatedProductGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/RelatedProductGraphQl/ vendor/magento/module-related-product-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer": {
+      "root": "magento2/app/code/Magento/LoginAsCustomer/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomer/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomer/ vendor/magento/module-login-as-customer --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-security": {
+      "root": "magento2/app/code/Magento/Security/",
+      "sourceRoot": "magento2/app/code/Magento/Security/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Security/ vendor/magento/module-security --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-cms-url-rewrite-graph-ql": {
+      "root": "magento2/app/code/Magento/CmsUrlRewriteGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/CmsUrlRewriteGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/CmsUrlRewriteGraphQl/ vendor/magento/module-cms-url-rewrite-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-send-friend-graph-ql": {
+      "root": "magento2/app/code/Magento/SendFriendGraphQl/",
+      "sourceRoot": "magento2/app/code/Magento/SendFriendGraphQl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SendFriendGraphQl/ vendor/magento/module-send-friend-graph-ql --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-sales-sequence": {
+      "root": "magento2/app/code/Magento/SalesSequence/",
+      "sourceRoot": "magento2/app/code/Magento/SalesSequence/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SalesSequence/ vendor/magento/module-sales-sequence --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-bundle-import-export": {
+      "root": "magento2/app/code/Magento/BundleImportExport/",
+      "sourceRoot": "magento2/app/code/Magento/BundleImportExport/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/BundleImportExport/ vendor/magento/module-bundle-import-export --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-user": {
+      "root": "magento2/app/code/Magento/User/",
+      "sourceRoot": "magento2/app/code/Magento/User/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/User/ vendor/magento/module-user --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-grouped-product": {
+      "root": "magento2/app/code/Magento/GroupedProduct/",
+      "sourceRoot": "magento2/app/code/Magento/GroupedProduct/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GroupedProduct/ vendor/magento/module-grouped-product --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-google-analytics": {
+      "root": "magento2/app/code/Magento/GoogleAnalytics/",
+      "sourceRoot": "magento2/app/code/Magento/GoogleAnalytics/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/GoogleAnalytics/ vendor/magento/module-google-analytics --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-gallery-synchronization": {
+      "root": "magento2/app/code/Magento/MediaGallerySynchronization/",
+      "sourceRoot": "magento2/app/code/Magento/MediaGallerySynchronization/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaGallerySynchronization/ vendor/magento/module-media-gallery-synchronization --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-swagger": {
+      "root": "magento2/app/code/Magento/Swagger/",
+      "sourceRoot": "magento2/app/code/Magento/Swagger/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Swagger/ vendor/magento/module-swagger --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-dhl": {
+      "root": "magento2/app/code/Magento/Dhl/",
+      "sourceRoot": "magento2/app/code/Magento/Dhl/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Dhl/ vendor/magento/module-dhl --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-swagger-webapi-async": {
+      "root": "magento2/app/code/Magento/SwaggerWebapiAsync/",
+      "sourceRoot": "magento2/app/code/Magento/SwaggerWebapiAsync/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/SwaggerWebapiAsync/ vendor/magento/module-swagger-webapi-async --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-webapi-async": {
+      "root": "magento2/app/code/Magento/WebapiAsync/",
+      "sourceRoot": "magento2/app/code/Magento/WebapiAsync/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/WebapiAsync/ vendor/magento/module-webapi-async --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-login-as-customer-admin-ui": {
+      "root": "magento2/app/code/Magento/LoginAsCustomerAdminUi/",
+      "sourceRoot": "magento2/app/code/Magento/LoginAsCustomerAdminUi/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/LoginAsCustomerAdminUi/ vendor/magento/module-login-as-customer-admin-ui --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-robots": {
+      "root": "magento2/app/code/Magento/Robots/",
+      "sourceRoot": "magento2/app/code/Magento/Robots/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/Robots/ vendor/magento/module-robots --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content": {
+      "root": "magento2/app/code/Magento/MediaContent/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContent/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContent/ vendor/magento/module-media-content --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "magento/module-media-content-synchronization": {
+      "root": "magento2/app/code/Magento/MediaContentSynchronization/",
+      "sourceRoot": "magento2/app/code/Magento/MediaContentSynchronization/",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "mkdir -p vendor/ && rsync magento2/app/code/Magento/MediaContentSynchronization/ vendor/magento/module-media-content-synchronization --exclude Test -r"
+              }
+            ]
+          }
+        }
+      },
+      "implicitDependencies": [
+        "php-executor"
+      ]
+    },
+    "php": {
+      "root": "/",
+      "projectType": "library"
     }
   }
 }

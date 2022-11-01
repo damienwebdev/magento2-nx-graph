@@ -14,32 +14,48 @@ export function processProjectGraph(
 ): ProjectGraph {
     const builder = new ProjectGraphBuilder(graph);
 
-    const composerPackages = glob.sync('libs/*/composer.json').map((file) => JSON.parse(fs.readFileSync(file).toString()));
 
+    addComposerPackagesToGraphBuilderFromPath(builder, "libs");
+    addComposerPackagesToGraphBuilderFromPath(builder, "magento2/app/code");
+
+    return builder.getUpdatedProjectGraph();
+}
+
+export const addComposerPackagesToGraphBuilderFromPath = (builder: ProjectGraphBuilder, path: string) => {
+    const composerPackages = glob.sync(path + '**/**/composer.json').map((file) => JSON.parse(fs.readFileSync(file).toString()));
     for (const composerPackage of composerPackages) {
-        if(!composerPackage.requires){
+        if(!composerPackage.require){
             //skip if we have no dependencies.
             continue;
         }
 
-        for (const dep of Object.keys(composerPackage.requires)) {
-            const packageFiles = glob.sync('libs/' + getProjectPath(composerPackage.name) + '**/**', { nodir: true}); //This is probably overly "watchy", we could trim out markdown, etc.
-            
-            
-            for(const file of packageFiles){
-                builder.addExplicitDependency(composerPackage.name, file, dep);
+        const ignoredDeps = [
+            "magento/framework",
+            "magento/framework-amqp",
+            "magento/framework-message-queue",
+            "magento/framework-bulk",
+            "magento/magento-composer-installer"
+        ];
+        for (const dep of Object.keys(composerPackage.require)) {
+            if(ignoredDeps.includes(dep)){
+                continue;
             }
+            // const packageFiles = glob.sync(path + getProjectPath(composerPackage) + '**/**', { nodir: true}); //This is probably overly "watchy", we could trim out markdown, etc.
+            
+            if(dep.includes("magento")){
+                builder.addImplicitDependency(composerPackage.name, dep);
+            }
+            // for(const file of packageFiles){
+                
+            // }
         }
     }
-    
-
-    // builder.addExplicitDependency(projectName, join(graph.nodes[projectName].data.root, file), depProjectName);
-
-
-    // We will see how this is used below.
-    return builder.getUpdatedProjectGraph();
 }
 
-export const getProjectPath = (packageName: string): string => {
-    return packageName.replace('demo-nx-php/', '');
+export const getProjectPath = (packageRef: any): string => {
+    if(packageRef.name.includes("magento")){
+        const path = Object.keys(packageRef?.autoload["psr-4"])[0].replace("\\", "/").replace("\\", "/");
+        return "/" + path;
+    }
+    return packageRef.name.replace('demo-nx-php', '');
 }

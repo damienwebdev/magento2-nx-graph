@@ -13,7 +13,7 @@
             "email": "damienwebdev@gmail.com"
         }
     ],
-    "requires": {
+    "require": {
         "demo-nx-php/package-a": "*"
     }
 }

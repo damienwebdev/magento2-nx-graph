@@ -7,6 +7,8 @@
 
 # dependencies
 /node_modules
+/magento2
+/vendor/
 
 # IDEs and editors
 /.idea
@@ -38,4 +40,3 @@ testem.log
 .DS_Store
 Thumbs.db
 
-/vendor/
