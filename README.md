@@ -21,5 +21,3 @@ This demo uses `Nx` to highlight what graph-build tools do, and how they can be 
 git clone https://github.com/damienwebdev/demo-nx-php && cd demo-nx-php 
 npx nx dep-graph
 ```
-
-https://user-images.githubusercontent.com/9029654/142913178-8070580d-3d72-4141-a0e0-63dd547a39e1.mp4
